@@ -1,0 +1,132 @@
+body{
+  margin: 0;
+  height: 100vh;
+  max-width: 1920px;
+  background-image: url(/assets/img/AboutUs/AboutUs-background.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Poppins,Arial;
+}
+
+.heading{
+  font-family: Playfair Display;
+  font-size: 36px;
+  margin-left: 62px;
+  margin-top: 48px;
+  text-shadow: 2px 2px 4px rgb(130, 122, 122);
+}
+
+.heading-img img{
+  position: fixed;
+  top: -320px;
+  right: -320px;
+  height: 700px;
+  width: auto;
+  z-index: -100;
+}
+
+.navigations{
+  position: fixed;
+  right: 0px;
+  bottom: 20px;
+}
+
+.navigator{
+  height:46px;
+  width: 46px;
+  background-color: #A05C2A;
+  margin: 20px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+
+}
+
+.navigator img{
+  height: 32px;
+  width: auto;
+}
+
+.navigator-like{
+  height:46px;
+  width: 46px;
+  background-color: #ffffff;
+  border: 2px solid #A05C2A;
+  margin: 20px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.navigator-like img{
+  height: 36px;
+  width: auto;
+}
+
+.navigator:hover{
+  transform: scale(1.1);
+  background-color: #b46126;
+}
+
+
+/* blog  */
+
+header {
+  color: #793a0d;
+  padding: 20px 0;
+  text-align: center;
+  font-family: Playfair Display;
+  font-size: 20px;
+}
+.container {
+  border-radius: 5px;
+  width: 80%;
+  margin: 20px auto;
+  overflow: hidden;
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+ h2, h3 {
+  color: #A05C2A;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+th {
+  background-color: #f2f2f2;
+  text-align: left;
+}
+.instructions {
+  margin: 20px 0;
+}
+.instructions article {
+  margin-bottom: 20px;
+}
+
+.pic-collage{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.pic-collage img{
+  height:400px;
+  width: 300px;
+  border-radius: 5px;
+}

@@ -1,0 +1,126 @@
+body{
+  margin: 0;
+  height: 100vh;
+  max-width: 1920px;
+  background-image: url(/assets/img/Recipes/Recipes-background.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Poppins,Arial;
+}
+
+.recipe-heading{
+  position: relative;
+  font-size: 36px;
+  font-weight: 600;
+  color: #67462E;
+  left: 132px;
+  text-shadow: 2px 2px 4px rgba(92, 91, 91, 0.624);
+}
+
+.recipe-card{
+  width: 412px;
+  height: 272px;
+  background-color: #FFEFC8;
+  border-radius: 16px;
+  display: flex;
+  position: relative;
+
+}
+
+.recipe-name{
+  font-size: 28px;
+  font-weight: 600;
+  margin-left: 36px;
+  margin-bottom: 16px;
+}
+
+.cooking-time{
+  display: flex;
+  align-items: center;
+  
+}
+
+.cooking-time img{
+  margin-left: 36px;
+  height: 36px;
+  width: 36px;
+}
+
+.cooking-time p{
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 12px;
+  
+}
+
+.serving-count{
+  display: flex;
+  align-items: center;
+}
+
+.serving-count img{
+  margin-left: 36px;
+  height: 36px;
+  width: 36px;
+}
+
+.serving-count p{
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 12px;
+}
+
+.calories{
+  font-weight: 600;
+  margin-left: 40px;
+  font-size: 18px;
+}
+
+.thumbnail{
+  position: absolute;
+  top: 0;
+  right: -68%;
+  top: 6%;
+  width: 100%;
+  height: 100%;
+}
+
+.thumbnail img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  height: 248px;
+  width: auto;
+  
+}
+
+.card-container {
+  margin-top: 96px;
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  margin-left: 5%;
+  gap: 48px;
+}
+
+a{
+  text-decoration: none;
+  color: #000;
+}
+
+
+
+/* responsive codes */
+
+@media (max-width: 1200px) { 
+
+  .card-container {
+    margin-top: 96px;
+    display: grid;
+    grid-template-columns: 1fr; 
+    margin-left: 25%;
+    gap: 48px;
+  }
+
+ }

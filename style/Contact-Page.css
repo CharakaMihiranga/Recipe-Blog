@@ -1,0 +1,254 @@
+body{
+  margin: 0;
+  height: 100vh;
+  max-width: 1920px;
+  background-image: url(/assets/img/Contact/Contact-background.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Poppins,Arial;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form{
+  background-color: #fff;
+  width: 900px;
+  height: 500px;
+  border-radius: 8px;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+  margin: 5%;
+}
+
+#heading{
+  margin-top: 40px;
+  margin-bottom: 60px;
+  font-weight: 700;
+  font-size: 30px;
+  color: rgb(57, 31, 13);
+  text-align: center;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 2,1fr;
+  display: flex;
+}
+
+.p-detail{
+  margin: 0 10% 0% 10%;
+}
+
+.p-detail input{
+  width: 300px;
+  border: none;
+  border-bottom: 1px solid #000000;
+  box-sizing: border-box;
+  font-size: 16px;
+  margin-bottom: 12bpx;
+}
+
+.p-detail input:focus,
+.p-detail input:hover{
+  outline: none;
+}
+
+.msg-content input:focus,
+.msg-content input:hover {
+    border: none;
+    outline: none; 
+}
+
+.msg-content input{
+  border: none;
+  font-size: 18px;
+  width: 250px;
+
+}
+
+.msg-content button{
+  position: relative;
+  right: 32px;
+  top: 230px;
+  width: 100px;
+  height: 40px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff;
+  background-color: #30B800 ;
+  border: none;
+  border-radius: 10px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.msg-content button:hover{
+  background-color: #48e60e;
+  transform: scale(1.05); 
+}
+
+/* responsive codes */
+
+@media (max-width: 1000px) { 
+  
+  .msg-content input{
+    width: 200px;
+  
+  }
+
+  .p-detail input{
+    width: 200px;
+    border: none;
+    border-bottom: 1px solid #000000;
+    box-sizing: border-box;
+    font-size: 14px;
+    margin-bottom: 12bpx;
+  }
+  
+  
+  
+ }
+
+ @media(max-width:705px){
+  .msg-content button{
+   
+    right: -120px;
+    top: 212px;
+   
+  }
+ }
+
+ @media (max-width: 620px) {
+  
+  form{
+    background-color: #fff;
+    width: 900px;
+    height: 640px;
+    border-radius: 8px;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 5%;
+  }
+  
+  .container{
+   
+    display: block;
+  }
+
+  .msg-content{
+    margin-top: 25px;
+    margin-left: 10%;
+  }
+
+  .msg-content button{
+    position: relative;
+    right: -324px;
+    top: 120px;
+    width: 100px;
+    height: 40px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+    background-color: #30B800 ;
+    border: none;
+    border-radius: 10px;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+
+  .msg-content input{
+    border: none;
+    font-size: 18px;
+    width: 400px;
+  
+  }
+  
+  #heading{
+   
+    font-size: 26px;
+    
+  }
+
+  .p-detail input{
+    width: 320px;
+    border: none;
+    border-bottom: 1px solid #000000;
+    box-sizing: border-box;
+    font-size: 14px;
+    margin-bottom: 12bpx;
+  }
+  
+
+ }
+
+ @media (max-width: 520px) {
+  
+  form{
+    background-color: #fff;
+    width: 90%;
+    height: 90vh;
+    border-radius: 8px;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 5%;
+  }
+
+  .p-detail input{
+    width: 60vw;
+    border: none;
+    border-bottom: 1px solid #000000;
+    box-sizing: border-box;
+    font-size: 16px;
+    margin-bottom: 12bpx;
+  }
+  
+  .msg-content input{
+    border: none;
+    font-size: 18px;
+    width: 70vw;
+  
+  }
+
+  .msg-content button{
+    left: 46vw;
+    top: 13vh;
+    width: 100px;
+    height: 40px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+    background-color: #30B800 ;
+    border: none;
+    border-radius: 10px;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+
+  #heading{
+   width: 90vw;
+   text-align: center;
+   font-size: 22px;
+  }
+  
+  /*
+  
+  
+ 
+  .p-detail input:focus,
+  .p-detail input:hover{
+    outline: none;
+  }
+  
+  .msg-content input:focus,
+  .msg-content input:hover {
+      border: none;
+      outline: none; 
+  }
+  
+  
+
+  
+  .msg-content button:hover{
+    background-color: #48e60e;
+    transform: scale(1.05); 
+  }
+   */
+  
+ }

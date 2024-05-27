@@ -1,0 +1,116 @@
+body{
+  margin: 0;
+  height: 100vh;
+  max-width: 1920px;
+  background-image: url(/assets/img/AboutUs/AboutUs-background.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Poppins,Arial;
+}
+
+.au-text{
+  position: fixed;
+  left: 100px;
+  top:40px;
+}
+
+#au-img{
+  height: 650px;
+  position: fixed;
+  right: 0;
+  bottom: 14px;
+}
+
+#au-heading{
+  font-weight: 700;
+  font-size: 32px;
+  color: #67462E;
+
+}
+
+#au-paragraph{
+ width: 45%; 
+}
+
+#au-paragraph p{
+  font-weight: 500;
+  text-shadow: 2px 2px 4px rgb(92, 91, 91);
+}
+
+
+/* responsive codes */
+
+@media (max-width: 1000px) { 
+  #au-paragraph{
+    width: 60%; 
+   }
+   
+   #au-img{
+    height: 650px;
+    position: fixed;
+    right: -200px;
+    bottom: 14px;
+  }
+  
+ }
+
+ @media (max-width: 760px) {
+  
+  .au-text{
+    position: fixed;
+    left: 80px;
+    top:40px;
+  }
+  
+  #au-img{
+    height: 650px;
+    position: fixed;
+    right: -340px;
+    bottom: 14px;
+  }
+  
+  #au-heading{
+    font-weight: 700;
+    font-size: 28px;
+    color: #67462E;
+  
+  }
+  
+  #au-paragraph{
+   width: 70%; 
+   font-size: 15px;
+  }
+  
+
+ }
+
+ @media (max-width: 520px) {
+  
+  .au-text{
+    position: fixed;
+    left: 40px;
+    top:40px;
+  }
+  
+  #au-img{
+    height: 650px;
+    position: fixed;
+    right: -400px;
+    bottom: 14px;
+  }
+  
+  #au-heading{
+    font-weight: 700;
+    font-size: 20px;
+    color: #67462E;
+  
+  }
+  
+  #au-paragraph{
+   width: 70%; 
+   font-size: 14px;
+  }
+
+ }
